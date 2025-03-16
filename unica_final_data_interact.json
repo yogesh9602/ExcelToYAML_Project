@@ -1,0 +1,559 @@
+{
+    "databaseName": "kmbl_dex",
+    "schemaName": "srcl",
+    "tableName": "unica_final_data_interact",
+    "columns": [
+        {
+            "name": "UNIQUE_REF_NO",
+            "type": "DECIMAL(38,10)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CUSTOMER_NAME",
+            "type": "VARCHAR(1604)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CRN",
+            "type": "VARCHAR(200)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "TACT_VAR_1",
+            "type": "VARCHAR(348)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CAMPAIGN_DEVELOPER",
+            "type": "VARCHAR(44)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "QUALITY_CHECKER",
+            "type": "VARCHAR(56)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "TACT_SCORE",
+            "type": "VARCHAR(12)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "OFFER_PIPE",
+            "type": "VARCHAR(28)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MB_REDIRECTION_URI",
+            "type": "VARCHAR(68)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MB_IMAGE_URL",
+            "type": "VARCHAR(320)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ATM_CHL",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CHATBOT_CHL",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "BRANCH_CHL",
+            "type": "BIGINT",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MB_CHL",
+            "type": "BIGINT",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_PRELOGIN_CHL",
+            "type": "VARCHAR(88)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "OFFER_NAME",
+            "type": "VARCHAR(48)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CAMPAIGN_CODE",
+            "type": "VARCHAR(40)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_POSTLOGIN_CHL",
+            "type": "BIGINT",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CEC_CHL",
+            "type": "BIGINT",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "HYPERTEXT",
+            "type": "VARCHAR(40)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "HYPERLINK",
+            "type": "VARCHAR(152)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLSUBHEAD",
+            "type": "VARCHAR(104)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLBULLETHEAD",
+            "type": "VARCHAR(44)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLBULLETTEXT1",
+            "type": "VARCHAR(156)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLBULLETTEXT2",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLBTNHREF",
+            "type": "VARCHAR(152)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "NB_OFFERDTLBTNSRC",
+            "type": "VARCHAR(24)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CAMPAIGN_MANAGER",
+            "type": "VARCHAR(52)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "OFFER_STATUS",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "OFFERDTLIMAGE",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "END_DATE",
+            "type": "VARCHAR(384)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MAX_LOAN_AMT",
+            "type": "DECIMAL(20,3)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "START_DATE",
+            "type": "VARCHAR(384)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "VALID_TO",
+            "type": "DATE",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MOREOFFERBTNTEXT",
+            "type": "VARCHAR(40)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "KEYA_CHL",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WHATSAPP_CHL",
+            "type": "BIGINT",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MB_VARIABLE",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MOREOFFERDESCHEAD",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MOREOFFERIMAGE",
+            "type": "VARCHAR(92)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "MOREOFFERVALIDTILLTEXT",
+            "type": "VARCHAR(108)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ATM_ATTRIBUTE_1",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ATM_VARIABLE",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ATM_ATTRIBUTE_2",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "TEMPLATE_ID",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WHATSAPP_VARIABLE",
+            "type": "VARCHAR(156)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WHATSAPP_HYPERLINK",
+            "type": "VARCHAR(152)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WHATSAPP_TEXT",
+            "type": "VARCHAR(40)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WHATSAPP_IMAGE",
+            "type": "VARCHAR(264)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "KEYA_VARIABLE",
+            "type": "VARCHAR(156)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "KEYA_HYPERLINK",
+            "type": "VARCHAR(44)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "KEYA_TEXT",
+            "type": "VARCHAR(40)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "KEYA_IMAGE",
+            "type": "VARCHAR(56)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_DESCRIPTION",
+            "type": "VARCHAR(4)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_HYPERLINK",
+            "type": "VARCHAR(152)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_HYPERLINK_NAME",
+            "type": "VARCHAR(36)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_IMAGE_LINK",
+            "type": "VARCHAR(272)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_OFFER_TITLE",
+            "type": "VARCHAR(140)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_VARIABLE_INFORMATION",
+            "type": "VARCHAR(20)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "PRE_WEB_POINT_1",
+            "type": "VARCHAR(180)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "CRN_OFFER_AMT",
+            "type": "VARCHAR(288)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CREATED_BY",
+            "type": "varchar(255)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CREATED_TIME",
+            "type": "timestamp",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_LAST_UPDATED_BY",
+            "type": "varchar(255)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_LAST_UPDATED_TIME",
+            "type": "timestamp",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CHANGE_FLAG",
+            "type": "varchar(1)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WF_AUDIT_ID",
+            "type": "integer",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "distStyle": null,
+    "distKey": null,
+    "sortStyle": null,
+    "sortKeys": [],
+    "primaryKeys": [],
+    "foreignKeys": [],
+    "dataContract": {
+        "SLA": null,
+        "datasetClassification": "",
+        "retention": "",
+        "loadFrequency": "",
+        "loadType": "",
+        "description": "",
+        "containsPII": null,
+        "containsSPII": null
+    }
+}

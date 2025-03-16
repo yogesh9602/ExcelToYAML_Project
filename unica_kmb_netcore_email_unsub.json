@@ -1,0 +1,127 @@
+{
+    "databaseName": "kmbl_dex",
+    "schemaName": "srcl",
+    "tableName": "unica_kmb_netcore_email_unsub",
+    "columns": [
+        {
+            "name": "crn_prospect",
+            "type": "varchar(100)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "crn",
+            "type": "varchar(20)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "email",
+            "type": "varchar(500)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mobile",
+            "type": "varchar(20)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "name",
+            "type": "varchar(100)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "unsubscribe_link_url",
+            "type": "varchar(1000)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "unica_load_date",
+            "type": "timestamp",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CREATED_BY",
+            "type": "varchar(255)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CREATED_TIME",
+            "type": "timestamp",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_LAST_UPDATED_BY",
+            "type": "varchar(255)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_LAST_UPDATED_TIME",
+            "type": "timestamp",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "ETL_CHANGE_FLAG",
+            "type": "varchar(1)",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "WF_AUDIT_ID",
+            "type": "integer",
+            "encoding": "ZSTD",
+            "isActive": true,
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "distStyle": null,
+    "distKey": null,
+    "sortStyle": null,
+    "sortKeys": [],
+    "primaryKeys": [],
+    "foreignKeys": [],
+    "dataContract": {
+        "SLA": null,
+        "datasetClassification": "",
+        "retention": "",
+        "loadFrequency": "",
+        "loadType": "",
+        "description": "",
+        "containsPII": null,
+        "containsSPII": null
+    }
+}
